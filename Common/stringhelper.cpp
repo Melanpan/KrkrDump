@@ -229,7 +229,7 @@ namespace StringHelper
 			return std::wstring();
 		}
 
-		if (count < sizeof(buf))
+		if (count < _countof(buf))
 		{
 			// All characters have been written to the small buffer.
 			return std::wstring(buf, count);
@@ -267,7 +267,7 @@ namespace StringHelper
 			return std::wstring();
 		}
 
-		if (count < sizeof(buf))
+		if (count < _countof(buf))
 		{
 			// All characters have been written to the small buffer.
 			return std::wstring(buf, count);
