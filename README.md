@@ -46,6 +46,7 @@ The tool requires a JSON configuration file that must share the same base name a
 
 ## Installation and Execution
 
+
 1. Prepare the configuration file as shown above.
 2. Place the following files in the same directory:
    - `KrkrDump.dll`
